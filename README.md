@@ -11,9 +11,8 @@ Authentication still relies heavily on usernames and passwords. While modern sec
 
 One of the biggest challenges in password security is **human behavior**. People rarely create completely random passwords. Instead, they often combine memorable information such as their names, birthdays, pets, favorite movies, locations, lucky numbers, or other personal details. These predictable habits make password guessing attacks more effective when performed against weak authentication systems.
 
-**NERD (Human Behavior Password Generator)** was created to study these real-world password creation patterns and generate realistic password candidates for **authorized penetration testing, password auditing, cybersecurity research, and educational purposes**.
+**NERD** was created to study these real-world password creation patterns and generate realistic password candidates for **authorized penetration testing, password auditing, cybersecurity research, and educational purposes**.
 
-Unlike traditional dictionary generators that simply create large numbers of random combinations, NERD prioritizes password candidates using a scoring system based on common human password habits. This helps security professionals focus on more probable passwords before testing less likely combinations.
 
 ---
 
@@ -28,7 +27,7 @@ Unlike traditional dictionary generators that simply create large numbers of ran
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your_username>/NERD.git
+git clone https://github.com/mba-official/nerd
 ```
 
 Move into the project directory:
@@ -43,9 +42,10 @@ Run the tool:
 python nerd.py
 ```
 
+
 ---
 
-# 🎬 Example
+# 🎬 Demo
 
 ![My Project Screenshot](screenshot/working.gif)
 
@@ -57,13 +57,13 @@ NERD automatically creates three prioritized password lists:
 
 ```text
 nerd_output/
-
 _high.txt
 _medium.txt
 _low.txt
 ```
 
 This allows testers to begin with the highest-probability passwords before moving to broader wordlists.
+
 
 ---
 
@@ -83,6 +83,7 @@ The author does **not** support or encourage unauthorized access, malicious acti
 
 Users are solely responsible for ensuring that they have proper authorization before using NERD against any target system.
 
+
 ---
 
 # 📜 License
@@ -91,5 +92,5 @@ This project is released under the **MIT License**.
 
 You are free to use, modify, and distribute this software in accordance with the terms of the license.
 
-See the **LICENSE** file for complete license information.
+See the **[LICENSE](LICENSE)** file for complete license information.
 
